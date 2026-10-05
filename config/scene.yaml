@@ -1,0 +1,50 @@
+scene:
+  table_height: 0.0
+  home_joints: [0.0, -1.5707, 1.5707, -1.5707, -1.5707, 0.0]
+
+  # 5 Khối hộp trong bán kính làm việc tối ưu của UR3 (~0.25m - 0.35m)
+  objects:
+    red_cube:
+      x: 0.26
+      y: -0.15
+      z: 0.02
+    yellow_cube:
+      x: 0.30
+      y: 0.00
+      z: 0.02
+    blue_cube:
+      x: -0.25
+      y: 0.00
+      z: 0.02 # Đang chiếm zone_b
+    green_cube:
+      x: 0.26
+      y: 0.15
+      z: 0.02
+    purple_cube:
+      x: 0.15
+      y: 0.25
+      z: 0.02
+
+  # 3 Zone đích
+  zones:
+    zone_a:
+      x: -0.18
+      y: 0.22
+      z: 0.001
+    zone_b:
+      x: -0.25
+      y: 0.00
+      z: 0.001
+    zone_c:
+      x: -0.18
+      y: -0.22
+      z: 0.001
+
+  # Vị trí đặt tạm thời khi zone đích bị chiếm
+  temp_position:
+    x: 0.08
+    y: -0.28
+    z: 0.02
+
+  z_offset_approach: 0.20
+  z_offset_grasp: 0.095
