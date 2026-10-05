@@ -1,1 +1,2 @@
-# ur3_llm_control_gripper
+# Hướng dẫn
+Tương tự với https://github.com/LongVau/ur3_llm_control
